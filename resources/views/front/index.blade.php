@@ -9,6 +9,16 @@
 
 @include('includes.slider')
 
+    <script type="text/javascript">
+        swal({
+          title: "Welcome",
+          text: "Admin account : admin@gmail.com - password : secret",
+          icon: "success",
+          button: "Gotcha",
+
+        });
+       
+    </script>
 
 <!--Start section large top for tabs content-->
 <div class="section-large-top">

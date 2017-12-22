@@ -21,7 +21,7 @@
     <link href="{{ asset('rs-plugin/css/settings.css') }}" rel="stylesheet" type='text/css'>
     <link href="{{ asset('css/custom.css') }}" rel="stylesheet" type='text/css'>
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body >
 
@@ -29,7 +29,7 @@
         <!--Start class site-->
     <div class="tz-site" id="app">
 
-        
+
         
         @include('includes.header')
 
