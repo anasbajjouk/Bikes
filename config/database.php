@@ -46,7 +46,7 @@ return [
             'port' => env('DB_PORT', '3306'), //env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'heroku_21c4a2fae09d717'), //env('DB_DATABASE', 'forge'),
             'username' => env('DB_USERNAME', 'bee0512a8b6d0e'), //env('DB_USERNAME', 'forge'),
-            'password' => 'password' => env('DB_PASSWORD', '65215a0c'), //env('DB_PASSWORD', ''),
+            'password'  => env('DB_PASSWORD', '65215a0c'), //env('DB_PASSWORD', ''),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
