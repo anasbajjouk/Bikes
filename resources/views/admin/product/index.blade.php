@@ -53,7 +53,6 @@
                         <th>Category</th>
                         <th>Avaibility</th>
                         <th>OnSale</th>
-                        <th>Rate</th>
                         <th>Action</th>
                       </tr>
                       @forelse($products as $product)
@@ -68,7 +67,6 @@
                           <td>{{ $product->category->name }}</td>
                           <td>{{ $product->availability ? "On Stock": "Out Stock" }}</td>
                           <td>{{ $product->onSale ? "on Sale": "Normal Price" }}</td>
-                          <td>{{-- $product->rate->rate --}}</td>
                           <td>
                             <a href="{{ route('product.show',$product->id) }}" class="btn btn-sm btn-info"><i class="fa fa-info"></i></a>
                             <a href="{{ route('product.edit',$product->id) }}" class="btn btn-sm btn-primary"><i class="fa fa-pencil"></i></a>
@@ -91,7 +89,6 @@
                           <td></td>
                           <td> </td>
                           <td>No Product Yet</td>
-                          <td></td>
                           <td></td>
                           <td></td>
                           <td></td>
